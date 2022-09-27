@@ -11,7 +11,7 @@ const Video = ({ url, date }) => {
         allow="autoplay; encrypted-media"
         allowfullscreen
       ></iframe>
-      <DateTimePretty Component={DateTime} date={date} />
+      <DateTimePretty date={date} />
     </div>
   );
 };

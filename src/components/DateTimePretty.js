@@ -1,5 +1,6 @@
 import { withDateDifference } from "../hoc";
+import DateTime from "./DateTime";
 
-const DateTimePretty = ({ Component, date }) => withDateDifference(Component, date);
+const DateTimePretty = withDateDifference(DateTime);
 
 export default DateTimePretty;
